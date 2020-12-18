@@ -1,5 +1,5 @@
 {
-  "name": "AppSyncMasterclass-backend",
+  "name": "appsyncmasterclassalex-backend",
   "private": true,
   "version": "1.0.0",
   "description": "Backend for the AppSync Masterclass demo",
@@ -20,6 +20,10 @@
   "homepage": "https://github.com/aleksiwoncz/AppSyncMasterclass-backend#readme",
   "devDependencies": {
     "serverless": "2.4.0",
-    "serverless-appsync-plugin": "^1.4.0"
+    "serverless-appsync-plugin": "^1.4.0",
+    "serverless-iam-roles-per-function": "^3.0.1"
+  },
+  "dependencies": {
+    "chance": "^1.1.7"
   }
 }
